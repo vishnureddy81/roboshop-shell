@@ -1,5 +1,5 @@
 cp mongodb.repo /etc/yum.repos.d/mongo.repo
-cp mongodb /etc/systemd/system/catalogue.service
+cp catalogue.service /etc/systemd/system/catalogue.service
 
 
 dnf module disable nodejs -y
